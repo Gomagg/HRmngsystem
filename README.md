@@ -9,6 +9,7 @@ After installing php, composer and laravel, in the root dir,
 composer install or composer update
 copy .env.example to .env
 set up .env file
+composer global require laravel/installer
 php artisan key:generate
 php artisan storage:link
 php artisan migrate
